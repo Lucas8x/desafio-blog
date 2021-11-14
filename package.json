@@ -1,0 +1,18 @@
+{
+  "name": "desafio-blog",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn --cwd backend dev\" \"yarn --cwd frontend start\"",
+    "build": "concurrently \"yarn --cwd backend build\" \"yarn --cwd frontend build\"",
+    "start": "concurrently \"yarn --cwd backend start\" \"yarn --cwd frontend start\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}

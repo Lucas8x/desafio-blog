@@ -1,0 +1,58 @@
+.post-card {
+  padding: 14px;
+  background-color: white;
+  border-radius: 8px;
+  gap: 18px;
+}
+
+.post-header {
+  border-bottom: 1px solid rgb(179, 179, 179);
+  padding-bottom: 6px;
+}
+
+.post-header h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post-content-container {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.post-content-container p {
+  margin-top: 12px;
+  line-height: 22px;
+}
+
+.post-footer p {
+  margin-top: 10px;
+  color: rgb(61, 56, 56);
+  font-weight: 600;
+}
+
+.actions {
+  margin-top: 6px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #32a22e;
+}
+
+.delete-button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
