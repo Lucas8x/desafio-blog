@@ -1,5 +1,7 @@
 # Desafio Blog
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Desafio%20Blog&uri=https%3A%2F%2Fgithub.com%2FLucas8x%2Fdesafio-blog%2Fblob%2Fmain%2Fbackend%2FInsomnia.json)
+
 ## 💻 Requerimentos
 - [Yarn](https://yarnpkg.com/)
 
